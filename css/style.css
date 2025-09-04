@@ -1,9 +1,81 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 img.food {
     height: auto;
     width: 300px;
+}
+img{
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 15px;
 }
 
 .banner{
     height: auto;
     width: 500px;
+}
+
+body{
+    background-color: rgb(187,206,150);
+}
+
+#content{
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(75,92,86);
+    padding: 18px;
+    border-radius: 25px;
+}
+.Title{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(210,175,107);
+}
+
+/*Link Elements*/
+a:link {
+  color: rgb(210,175,107);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(210,175,107);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(148,143,101);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(210,175,107);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.recipe{
+    font-size: 26px;
+    font-family: 'Brush Script MT', cursive;
+}
+.recipe-desc{
+    color: rgb(239, 184, 75);
+    font-size: 18px;
+    font-family: 'Brush Script MT', cursive;
+    padding: 18px;
+}
+.recipe-desc h2{
+    color: rgb(210,175,107);
 }
